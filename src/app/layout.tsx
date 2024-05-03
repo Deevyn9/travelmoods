@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Nav from "./components/Nav";
 
 export const metadata: Metadata = {
   title: "TravelMoods",
@@ -13,7 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className="wrapper">
+          <Nav />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
