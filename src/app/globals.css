@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   max-width: 800px;
   width: 100%;
-  border: 2px dashed red;
   min-height: 100vh;
   padding: 30px 10px;
 }
@@ -74,6 +73,15 @@ body {
 @media (max-width: 768px) {
   .wrapper {
     padding: 10px;
+  }
+
+  .hero-header {
+    font-size: 20px;
+  }
+
+  .hero-paragraph {
+    font-size: 20px;
+    margin-bottom: 50px;
   }
 
   .mood-buttons {
