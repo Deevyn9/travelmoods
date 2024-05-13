@@ -62,7 +62,7 @@ const MoodButtons = [
     path: "#",
   },
   {
-    moodname: "Natural",
+    moodname: "Guilty",
     path: "#",
   },
   {
