@@ -1,76 +1,77 @@
 import React from "react";
+import Link from "next/link";
 
-const MoodButtons = [
+const Moods = [
   {
-    moodname: "Adventrous",
+    name: "Adventrous",
     path: "#",
   },
   {
-    moodname: "Relaxed",
+    name: "Relaxed",
     path: "#",
   },
   {
-    moodname: "Exotic",
+    name: "Exotic",
     path: "#",
   },
   {
-    moodname: "Playful",
+    name: "Playful",
     path: "#",
   },
   {
-    moodname: "Wild",
+    name: "Wild",
     path: "#",
   },
   {
-    moodname: "Spiritual",
+    name: "Spiritual",
     path: "#",
   },
   {
-    moodname: "Romantic",
+    name: "Romantic",
     path: "#",
   },
   {
-    moodname: "Vibrant",
+    name: "Vibrant",
     path: "#",
   },
   {
-    moodname: "Scenic",
+    name: "Scenic",
     path: "#",
   },
   {
-    moodname: "Independent",
+    name: "Independent",
     path: "#",
   },
   {
-    moodname: "Spontaneous",
+    name: "Spontaneous",
     path: "#",
   },
   {
-    moodname: "Epicurean",
+    name: "Epicurean",
     path: "#",
   },
   {
-    moodname: "Urban",
+    name: "Urban",
     path: "#",
   },
   {
-    moodname: "Coastal",
+    name: "Coastal",
     path: "#",
   },
   {
-    moodname: "Reverence",
+    name: "Reverence",
     path: "#",
   },
   {
-    moodname: "Guilty",
+    name: "Guilty",
     path: "#",
   },
   {
-    moodname: "Vagabond",
+    name: "Vagabond",
     path: "#",
   },
   {
-    moodname: "Wanderlust",
+    name: "Wanderlust",
     path: "#",
   },
 ];
@@ -85,10 +86,10 @@ const Hero = () => {
         <p>How are you feeling?</p>
       </div>
       <div className="mood-buttons">
-        {MoodButtons.map((moodButton, i) => (
-          <a href="#" key={i}>
-            {moodButton.moodname}
-          </a>
+        {Moods.map((mood, i) => (
+          <Link href={`/mood/${mood.name}`} key={i}>
+            {mood.name}
+          </Link>
         ))}
       </div>
     </div>
