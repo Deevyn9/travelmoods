@@ -1,5 +1,6 @@
 import Image from "next/image";
-import React from "react";
+import { useState, useEffect } from "react";
+import moodData from "@/lib/mood-data";
 
 const MoodPage = () => {
   return (
