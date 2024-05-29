@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Moods = [
   {
-    name: "Adventrous",
+    name: "Adventurous",
     path: "#",
   },
   {

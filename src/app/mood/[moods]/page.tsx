@@ -1,24 +1,32 @@
+"use client";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
+import { useParams } from "next/navigation";
 import moodData from "@/lib/mood-data";
+import igm from "../../../../public/vercel.svg";
 
 const MoodPage = () => {
+  console.log(moodData);
+  const params = useParams();
+  console.log(params);
+  const moodName = params.moods;
+  console.log(moodName);
+  //   console.log(moodData.find((mood) => mood.name === params.moods));
+  const currentMoodData = moodData.find((mood) => mood.name === moodName);
+  console.log(currentMoodData);
+
   return (
     <div className="">
       <div className="container">
         <div className="image-area">
-          <Image src="" alt="video" />
+          <Image src={igm} alt="video" />
         </div>
         <div className="details-area">
           <div className="destination-name">
-            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <h2>{currentMoodData?.place.name}</h2>
           </div>
           <div className="description">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
-              minima qui deserunt, repudiandae in aperiam ducimus consectetur.
-              Ullam, nihil. Hic?
-            </p>
+            <p>ths: {currentMoodData?.place.description}</p>
           </div>
         </div>
         <div className="controls">
