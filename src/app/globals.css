@@ -102,6 +102,12 @@ body {
   }
 }
 
+.edit-mood {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .container {
   border: 2px dashed red;
 }
