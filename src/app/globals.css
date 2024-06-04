@@ -110,6 +110,7 @@ body {
 
 .container {
   border: 2px dashed red;
+  overflow: hidden;
 }
 
 .container .image-area {
@@ -124,6 +125,16 @@ body {
 
 .container .details-area .description {
   margin-bottom: 30px;
+}
+
+.destinations {
+  display: flex;
+  width: 100%;
+}
+
+.destinations > div {
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .container .controls {
