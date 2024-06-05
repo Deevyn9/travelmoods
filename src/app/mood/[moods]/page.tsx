@@ -1,9 +1,9 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import moodData from "@/lib/mood-data";
-import igm from "../../../../public/vercel.svg";
+// import igm from "../../../../public/vercel.svg";
 
 const MoodPage = () => {
   const params = useParams();
@@ -12,6 +12,7 @@ const MoodPage = () => {
     []
   );
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [hiddenDestinations, setHiddenDestinations] = useState<string[]>([]);
 
   useEffect(() => {
     const getPlaces = (moodName: string | string[]) => {
@@ -26,47 +27,66 @@ const MoodPage = () => {
         );
       }
     };
-    const shuffledPlaces = getPlaces(moodName).sort(() => Math.random() - 0.5);
-    setPlaces(shuffledPlaces);
+    const places = getPlaces(moodName);
+    setPlaces(places);
+    console.log(places);
   }, [moodName, currentIndex]);
 
   const handleNext = () => {
-    setCurrentIndex(currentIndex + 1);
+    setCurrentIndex((currentIndex + 1) % places.length);
   };
 
   const handleBack = () => {
-    setCurrentIndex(currentIndex - 1);
+    setCurrentIndex((currentIndex - 1 + places.length) % places.length);
   };
+
+  const handleHide = () => {
+    setPlaces(places.filter((place, index) => index !== currentIndex));
+    setCurrentIndex((currentIndex + 1) % places.length);
+  };
+
+  const isNextDisabled = currentIndex >= places.length - 1;
+  const isBackDisabled = currentIndex === 0;
 
   return (
     <div className="">
       <div className="container">
         <div className="destinations">
-          {places.map((place, index) => (
-            <div key={index}>
+          {places.length > 0 && (
+            <div key={currentIndex}>
               <div className="image-area">
                 {/* <Image src={igm} alt="video" /> */}
               </div>
               <div className="details-area">
                 <div className="destination-name">
-                  <h2>{place.name}</h2>
+                  <h2>
+                    {places[currentIndex] ? places[currentIndex].name : ""}
+                  </h2>
                 </div>
                 <div className="description">
-                  <p>{place.description}</p>
+                  <p>
+                    {places[currentIndex]
+                      ? places[currentIndex].description
+                      : ""}
+                  </p>
                 </div>
               </div>
             </div>
-          ))}
+          )}
         </div>
         <div className="controls">
           <div className="back-button">
-            <button onClick={() => handleBack()}>back</button>
+            <button onClick={() => handleBack()} disabled={isBackDisabled}>
+              back
+            </button>
           </div>
           <div className="hide-button">
-            <button>hide</button>
+            <button onClick={() => handleHide()}>hide</button>
           </div>
           <div className="next-button">
-            <button onClick={() => handleNext()}>next</button>
+            <button onClick={() => handleNext()} disabled={isNextDisabled}>
+              next
+            </button>
           </div>
         </div>
       </div>
