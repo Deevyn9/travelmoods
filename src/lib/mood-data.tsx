@@ -3,17 +3,17 @@ const moodData = [
     name: "Adventurous",
     places: [
       {
-        name: "Queenstown, New Zealand",
+        name: "Queenstown, New Zealand 1",
         description:
           "A thrill-seeker's paradise with bungee jumping, skydiving, and white-water rafting.",
       },
       {
-        name: "Queenstown, New Zealand",
+        name: "Queenstown, New Zealand 2",
         description:
           "A thrill-seeker's paradise with bungee jumping, skydiving, and white-water rafting.",
       },
       {
-        name: "Queenstown, New Zealand",
+        name: "Queenstown, New Zealand 3",
         description:
           "A thrill-seeker's paradise with bungee jumping, skydiving, and white-water rafting.",
       },

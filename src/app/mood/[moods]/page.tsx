@@ -12,7 +12,6 @@ const MoodPage = () => {
     []
   );
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [hiddenDestinations, setHiddenDestinations] = useState<string[]>([]);
 
   useEffect(() => {
     const getPlaces = (moodName: string | string[]) => {
@@ -29,8 +28,7 @@ const MoodPage = () => {
     };
     const places = getPlaces(moodName);
     setPlaces(places);
-    console.log(places);
-  }, [moodName, currentIndex]);
+  }, [moodName]);
 
   const handleNext = () => {
     setCurrentIndex((currentIndex + 1) % places.length);
@@ -41,8 +39,11 @@ const MoodPage = () => {
   };
 
   const handleHide = () => {
-    setPlaces(places.filter((place, index) => index !== currentIndex));
-    setCurrentIndex((currentIndex + 1) % places.length);
+    console.log("Before:", places);
+    const newPlaces = places.filter((place, index) => index !== currentIndex);
+    console.log("After:", newPlaces);
+    setPlaces(newPlaces);
+    setCurrentIndex(0);
   };
 
   const isNextDisabled = currentIndex >= places.length - 1;
