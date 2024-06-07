@@ -39,9 +39,7 @@ const MoodPage = () => {
   };
 
   const handleHide = () => {
-    console.log("Before:", places);
     const newPlaces = places.filter((place, index) => index !== currentIndex);
-    console.log("After:", newPlaces);
     setPlaces(newPlaces);
     setCurrentIndex(0);
   };
