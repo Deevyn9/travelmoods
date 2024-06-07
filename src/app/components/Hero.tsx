@@ -4,75 +4,75 @@ import Link from "next/link";
 const Moods = [
   {
     name: "Adventurous",
-    path: "#",
+    emoji: "🏃‍♂ ",
   },
   {
     name: "Relaxed",
-    path: "#",
+    emoji: "😴 ",
   },
   {
     name: "Exotic",
-    path: "#",
+    emoji: "🌺 ",
   },
   {
     name: "Playful",
-    path: "#",
+    emoji: "🤹 ",
   },
   {
     name: "Wild",
-    path: "#",
+    emoji: "🦁 ",
   },
   {
     name: "Spiritual",
-    path: "#",
+    emoji: "☯ ",
   },
   {
     name: "Romantic",
-    path: "#",
+    emoji: "❤ ",
   },
   {
     name: "Vibrant",
-    path: "#",
+    emoji: "🔥 ",
   },
   {
     name: "Scenic",
-    path: "#",
+    emoji: "🗻 ",
   },
   {
     name: "Independent",
-    path: "#",
+    emoji: "💃 ",
   },
   {
     name: "Spontaneous",
-    path: "#",
+    emoji: "🎉 ",
   },
   {
     name: "Epicurean",
-    path: "#",
+    emoji: "🤯 ",
   },
   {
     name: "Urban",
-    path: "#",
+    emoji: "🚕 ",
   },
   {
     name: "Coastal",
-    path: "#",
+    emoji: "🐠 ",
   },
   {
     name: "Reverence",
-    path: "#",
+    emoji: "🙏 ",
   },
   {
     name: "Guilty",
-    path: "#",
+    emoji: "🙊 ",
   },
   {
     name: "Vagabond",
-    path: "#",
+    emoji: "🚶 ",
   },
   {
     name: "Wanderlust",
-    path: "#",
+    emoji: "🛫 ",
   },
 ];
 
@@ -88,6 +88,7 @@ const Hero = () => {
       <div className="mood-buttons">
         {Moods.map((mood, i) => (
           <Link href={`/mood/${mood.name}`} key={i}>
+            <span>{mood.emoji}</span>
             {mood.name}
           </Link>
         ))}
