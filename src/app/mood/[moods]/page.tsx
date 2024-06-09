@@ -1,9 +1,7 @@
 "use client";
-// import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import moodData from "@/lib/mood-data";
-// import igm from "../../../../public/vercel.svg";
 
 const MoodPage = () => {
   const params = useParams();
