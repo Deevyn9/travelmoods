@@ -480,49 +480,49 @@ const moodsData = [
         name: "Bangkok, Thailand",
         description:
           "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
       },
       {
         name: "Istanbul, Turkey",
         description:
           "A city where East meets West, offering a mix of historic mosques, bazaars, and palaces.",
-        src: "",
+        src: "https://www.youtube.com/embed/1L2PIyGczCA?si=WRfCmK3BcoCXF7qg",
       },
       {
         name: "New Orleans, Louisiana, USA",
         description:
           "Known for its vibrant music scene, festivals, and unique cultural heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/fFWJc2bXOvk?si=SxEsBBk_AVS_CNWz",
       },
       {
         name: "Mumbai, India",
         description:
           "A city that never sleeps, known for its bustling markets, Bollywood, and cultural diversity.",
-        src: "",
+        src: "https://www.youtube.com/embed/tWD_-Rzrn8o?si=Cykay3bke9TiWiGZ",
       },
       {
         name: "Havana, Cuba",
         description:
           "A city with a rich history, colorful architecture, and vibrant music and dance scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/eoALIZBx8fw?si=GM6ydQUT4nol88he",
       },
       {
         name: "Barcelona, Spain",
         description:
           "A city with a playful spirit, offering unique architecture, beaches, and lively festivals.",
-        src: "",
+        src: "https://www.youtube.com/embed/ulpTYgJQxEg?si=kJzgLbFR-UnPfoLi",
       },
       {
         name: "Sydney, Australia",
         description:
           "Offers iconic landmarks, beautiful beaches, and a vibrant cultural scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/PLsFZbqr3Qo?si=JP37xcKJd5onYDnD",
       },
       {
         name: "Tokyo, Japan",
         description:
           "Offers a mix of high-tech attractions, quirky cafes, and vibrant neighborhoods.",
-        src: "",
+        src: "https://www.youtube.com/embed/77lWbSfnF_g?si=5m4gugwJsH5hEjfi",
       },
     ],
   },
@@ -534,31 +534,31 @@ const moodsData = [
         name: "Banff, Canada",
         description:
           "A picturesque town surrounded by the stunning Rocky Mountains and beautiful turquoise lakes.",
-        src: "",
+        src: "https://www.youtube.com/embed/TJohEDj0KPk?si=rondIrLiI4FVQFYL",
       },
       {
         name: "Swiss Alps, Switzerland",
         description:
           "Renowned for its breathtaking mountain landscapes and charming alpine villages.",
-        src: "",
+        src: "https://www.youtube.com/embed/TE_Gf16EGHA?si=Ufnz6nrJR4KLcs_V",
       },
       {
         name: "Great Ocean Road, Australia",
         description:
           "A scenic coastal drive offering stunning ocean views and unique rock formations.",
-        src: "",
+        src: "https://www.youtube.com/embed/GDySwaR64jE?si=r2j-dJlSZ-ESDmD-",
       },
       {
         name: "Plitvice Lakes National Park, Croatia",
         description:
           "Known for its cascading lakes, waterfalls, and lush forests.",
-        src: "",
+        src: "https://www.youtube.com/embed/p-4tzNe4Oko?si=XWPm79T2HY7Gs7S4",
       },
       {
         name: "Norwegian Fjords, Norway",
         description:
           "Famous for their dramatic landscapes, steep cliffs, and deep blue waters.",
-        src: "",
+        src: "https://www.youtube.com/embed/j1h_D4ytRIU?si=uxzbvJCnmKs_sNuD",
       },
       {
         name: "Santorini, Greece",
@@ -570,24 +570,24 @@ const moodsData = [
         name: "Cinque Terre, Italy",
         description:
           "A picturesque coastal region with colorful villages, stunning views, and romantic trails.",
-        src: "",
+        src: "https://www.youtube.com/embed/bTzoa8FyByo?si=Mqh9kV7rJluZQX2H",
       },
       {
         name: "Yosemite National Park, USA",
         description:
           "Known for its majestic waterfalls, giant sequoias, and granite cliffs.",
-        src: "",
+        src: "https://www.youtube.com/embed/9fJEFi3ccwI?si=_0JlpRqziNpJletO",
       },
       {
         name: "Machu Picchu, Peru",
         description: "An ancient Incan city with breathtaking mountain views.",
-        src: "",
+        src: "https://www.youtube.com/embed/lNIEZ61PyG0?si=MEVtnJDk4-z80I1j",
       },
       {
         name: "Torres del Paine, Chile",
         description:
           "A stunning national park with dramatic mountains, glaciers, and lakes.",
-        src: "",
+        src: "https://www.youtube.com/embed/xN_dWIRJRcc?si=0sUGJqtlHMnDKwTl",
       },
     ],
   },
@@ -701,7 +701,7 @@ const moodsData = [
         name: "Tokyo, Japan",
         description:
           "Offers a mix of high-tech attractions, quirky cafes, and vibrant neighborhoods.",
-        src: "",
+        src: "https://www.youtube.com/embed/77lWbSfnF_g?si=5m4gugwJsH5hEjfi",
       },
       {
         name: "Miami, Florida, USA",
@@ -713,7 +713,7 @@ const moodsData = [
         name: "Barcelona, Spain",
         description:
           "A city with a playful spirit, offering unique architecture, beaches, and lively festivals.",
-        src: "",
+        src: "https://www.youtube.com/embed/ulpTYgJQxEg?si=kJzgLbFR-UnPfoLi",
       },
       {
         name: "Prague, Czech Republic",
@@ -737,12 +737,12 @@ const moodsData = [
         name: "Tokyo, Japan",
         description:
           "Offers a diverse culinary scene with everything from street food to Michelin-starred dining.",
-        src: "",
+        src: "https://www.youtube.com/embed/77lWbSfnF_g?si=5m4gugwJsH5hEjfi",
       },
       {
         name: "Barcelona, Spain",
         description: "Famous for its tapas, seafood, and vibrant food markets.",
-        src: "",
+        src: "https://www.youtube.com/embed/ulpTYgJQxEg?si=kJzgLbFR-UnPfoLi",
       },
 
       {
@@ -785,7 +785,7 @@ const moodsData = [
         name: "Istanbul, Turkey",
         description:
           "A city where East meets West, offering a rich and diverse culinary scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/1L2PIyGczCA?si=WRfCmK3BcoCXF7qg",
       },
     ],
   },
@@ -803,7 +803,7 @@ const moodsData = [
         name: "Tokyo, Japan",
         description:
           "Offers a mix of high-tech attractions, quirky cafes, and vibrant neighborhoods.",
-        src: "",
+        src: "https://www.youtube.com/embed/77lWbSfnF_g?si=5m4gugwJsH5hEjfi",
       },
       {
         name: "London, England",
@@ -905,7 +905,7 @@ const moodsData = [
         name: "Cinque Terre, Italy",
         description:
           "A picturesque coastal region with colorful villages, stunning views, and romantic trails.",
-        src: "",
+        src: "https://www.youtube.com/embed/bTzoa8FyByo?si=Mqh9kV7rJluZQX2H",
       },
       {
         name: "Maldives",
@@ -977,7 +977,7 @@ const moodsData = [
         name: "Istanbul, Turkey",
         description:
           "A city where East meets West, offering a mix of historic mosques, bazaars, and palaces.",
-        src: "",
+        src: "https://www.youtube.com/embed/1L2PIyGczCA?si=WRfCmK3BcoCXF7qg",
       },
       {
         name: "Angkor Wat, Cambodia",
@@ -1103,7 +1103,7 @@ const moodsData = [
         name: "Cusco, Peru",
         description:
           "A historic city and gateway to Machu Picchu, offering a rich blend of Incan and Spanish colonial heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/lNIEZ61PyG0?si=MEVtnJDk4-z80I1j",
       },
       {
         name: "Hoi An, Vietnam",
