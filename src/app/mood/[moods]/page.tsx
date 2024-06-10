@@ -6,9 +6,9 @@ import moodData from "@/lib/mood-data";
 const MoodPage = () => {
   const params = useParams();
   const moodName = params.moods;
-  const [places, setPlaces] = useState<{ name: string; description: string }[]>(
-    []
-  );
+  const [places, setPlaces] = useState<
+    { name: string; description: string; src: string }[]
+  >([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -39,20 +39,26 @@ const MoodPage = () => {
   const handleHide = () => {
     const newPlaces = places.filter((place, index) => index !== currentIndex);
     setPlaces(newPlaces);
-    setCurrentIndex(0);
+    // setCurrentIndex(currentIndex + 1);
   };
 
   const isNextDisabled = currentIndex >= places.length - 1;
   const isBackDisabled = currentIndex === 0;
 
   return (
-    <div className="">
+    <div className="mood-page">
       <div className="container">
         <div className="destinations">
           {places.length > 0 && (
-            <div key={currentIndex}>
+            <div key={currentIndex} className="destination">
               <div className="image-area">
-                {/* <Image src={igm} alt="video" /> */}
+                <iframe
+                  width="560"
+                  height="315"
+                  src={places[currentIndex] ? places[currentIndex].src : ""}
+                  title="YouTube video player"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                ></iframe>
               </div>
               <div className="details-area">
                 <div className="destination-name">
