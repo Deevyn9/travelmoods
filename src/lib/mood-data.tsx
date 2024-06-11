@@ -984,68 +984,68 @@ const moodsData = [
   {
     name: "Guilty",
     emoji: "🙊",
-    // places: [
-    //   {
-    //     name: "Las Vegas, Nevada, USA",
-    //     description:
-    //       "Known for its lively entertainment, casinos, and vibrant nightlife.",
-    //     src: "",
-    //   },
-    //   {
-    //     name: "Macau, China",
-    //     description:
-    //       "Often called the 'Las Vegas of Asia', known for its casinos and luxury hotels.",
-    //     src: "",
-    //   },
-    //   {
-    //     name: "Amsterdam, Netherlands",
-    //     description:
-    //       "Famous for its canals, vibrant nightlife, and unique cultural experiences.",
-    //     src: "https://www.youtube.com/embed/3izVLop9iKg?si=X3HnuRycyvqVEJlE",
-    //   },
-    //   {
-    //     name: "Bangkok, Thailand",
-    //     description:
-    //       "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
-    //     src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
-    //   },
-    //   {
-    //     name: "Rio de Janeiro, Brazil",
-    //     description:
-    //       "Famous for its carnival, beaches, and lively samba music.",
-    //     src: "https://www.youtube.com/embed/ZYA0Bz3Tsl8?si=ys4Dz6-Z2kg3glmi",
-    //   },
-    //   {
-    //     name: "Ibiza, Spain",
-    //     description:
-    //       "Famous for its nightlife, beautiful beaches, and lively party scene.",
-    //     src: "",
-    //   },
-    //   {
-    //     name: "New Orleans, Louisiana, USA",
-    //     description:
-    //       "Known for its vibrant music scene, festivals, and unique cultural heritage.",
-    //     src: "https://www.youtube.com/embed/fFWJc2bXOvk?si=SxEsBBk_AVS_CNWz",
-    //   },
-    //   {
-    //     name: "Miami, Florida, USA",
-    //     description:
-    //       "Offers beautiful beaches, lively nightlife, and a vibrant cultural scene.",
-    //     src: "",
-    //   },
-    //   {
-    //     name: "Los Angeles, California, USA",
-    //     description:
-    //       "Known for its entertainment industry, beautiful beaches, and diverse neighborhoods.",
-    //     src: "https://www.youtube.com/embed/9wbNabuP6aM?si=sAqPc0Wd_23rTwyM",
-    //   },
-    //   {
-    //     name: "Berlin, Germany",
-    //     description:
-    //       "A city known for its eclectic nightlife, art scene, and historical landmarks.",
-    //     src: "https://www.youtube.com/embed/PNt9-tfsXYw?si=hzvJ68ZMeJgFL4bn",
-    //   },
-    // ],
+    places: [
+      {
+        name: "Las Vegas, Nevada, USA",
+        description:
+          "Known for its lively entertainment, casinos, and vibrant nightlife.",
+        src: "https://www.youtube.com/embed/HjklndipGGQ?si=diwaIc7DTm_HYeCb",
+      },
+      {
+        name: "Macau, China",
+        description:
+          "Often called the 'Las Vegas of Asia', known for its casinos and luxury hotels.",
+        src: "https://www.youtube.com/embed/SOvYXRsPVEo?si=M91_SZE3sGb0rWPH",
+      },
+      {
+        name: "Amsterdam, Netherlands",
+        description:
+          "Famous for its canals, vibrant nightlife, and unique cultural experiences.",
+        src: "https://www.youtube.com/embed/3izVLop9iKg?si=X3HnuRycyvqVEJlE",
+      },
+      {
+        name: "Bangkok, Thailand",
+        description:
+          "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
+        src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
+      },
+      {
+        name: "Rio de Janeiro, Brazil",
+        description:
+          "Famous for its carnival, beaches, and lively samba music.",
+        src: "https://www.youtube.com/embed/ZYA0Bz3Tsl8?si=ys4Dz6-Z2kg3glmi",
+      },
+      {
+        name: "Ibiza, Spain",
+        description:
+          "Famous for its nightlife, beautiful beaches, and lively party scene.",
+        src: "https://www.youtube.com/embed/GD95D1ViGfQ?si=u_blS5CHezBNIWnf",
+      },
+      {
+        name: "New Orleans, Louisiana, USA",
+        description:
+          "Known for its vibrant music scene, festivals, and unique cultural heritage.",
+        src: "https://www.youtube.com/embed/fFWJc2bXOvk?si=SxEsBBk_AVS_CNWz",
+      },
+      {
+        name: "Miami, Florida, USA",
+        description:
+          "Offers beautiful beaches, lively nightlife, and a vibrant cultural scene.",
+        src: "https://www.youtube.com/embed/yQCBAaJg1LE?si=HADyi2LpVHaviFRk",
+      },
+      {
+        name: "Los Angeles, California, USA",
+        description:
+          "Known for its entertainment industry, beautiful beaches, and diverse neighborhoods.",
+        src: "https://www.youtube.com/embed/9wbNabuP6aM?si=sAqPc0Wd_23rTwyM",
+      },
+      {
+        name: "Berlin, Germany",
+        description:
+          "A city known for its eclectic nightlife, art scene, and historical landmarks.",
+        src: "https://www.youtube.com/embed/PNt9-tfsXYw?si=hzvJ68ZMeJgFL4bn",
+      },
+    ],
   },
   {
     name: "Vagabond",
