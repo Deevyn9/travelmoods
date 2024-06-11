@@ -80,15 +80,15 @@ const MoodPage = () => {
         <div className="controls">
           <div className="back-button">
             <button onClick={() => handleBack()} disabled={isBackDisabled}>
-              back
+              ⬅️ back
             </button>
           </div>
           <div className="hide-button">
-            <button onClick={() => handleHide()}>hide</button>
+            <button onClick={() => handleHide()}>🙈 hide</button>
           </div>
           <div className="next-button">
             <button onClick={() => handleNext()} disabled={isNextDisabled}>
-              next
+              ➡️ next
             </button>
           </div>
         </div>
