@@ -39,6 +39,7 @@ body {
 
 .nav h3 {
   margin-left: 60px;
+  text-align: center;
 }
 
 .nav .nav-wrapper {
@@ -184,6 +185,12 @@ body {
     width: 100%;
   }
 
+  .nav h3 {
+    margin-left: 0;
+    padding: 0 10px;
+    word-wrap: break-word;
+  }
+
   .hero-header {
     font-size: 20px;
   }
@@ -215,6 +222,10 @@ body {
     display: grid;
     place-items: center;
   }
+
+  .mood-page {
+    width: 100%;
+  }
 }
 
 @media (width <= 350px) {
@@ -224,12 +235,19 @@ body {
   }
 
   .nav h3 {
-    font-size: 15px;
+    margin-left: 10px;
+    font-size: 16px;
   }
 
   .nav .edit-mood {
     width: 80px;
     height: 40px;
     font-size: 12px;
+  }
+
+  .container .controls button {
+    height: 50px;
+    width: 30vw;
+    font-size: 16px;
   }
 }
