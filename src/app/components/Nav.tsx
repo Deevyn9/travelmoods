@@ -1,13 +1,34 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../../../public/beach icon.png";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import moodsData from "@/lib/mood-data";
 
 const Nav = () => {
   const route = usePathname();
   const isHomePage = route === "/";
+  const mood = moodsData.find((mood) => route.includes(mood.name));
+  const [emojiIndex, setEmojiIndex] = useState(0);
+
+  let title;
+  if (isHomePage) {
+    title = "TravelMoods";
+  } else if (mood) {
+    title = `Feeling ${mood.emoji} ${mood.name}`;
+  } else {
+    title = "";
+  }
+
+  const emojis = ["🔥", "🦁", "🌺", "😴", "🏃‍♂"];
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setEmojiIndex((emojiIndex + 1) % emojis.length);
+    }, 1000);
+    return () => clearInterval(intervalId);
+  }, [emojis.length, emojiIndex]);
 
   return (
     <div className="nav">
@@ -16,7 +37,7 @@ const Nav = () => {
           <Image src={Logo} alt="logo" />
         </Link>
         <div className="path-name">
-          <h3>TravelMoods</h3>
+          <h3>{title}</h3>
         </div>
         <Link
           href="/"
@@ -25,6 +46,7 @@ const Nav = () => {
             opacity: isHomePage ? 0 : 1,
           }}
         >
+          <span>{emojis[emojiIndex]} </span>
           Edit Mood
         </Link>
       </div>
