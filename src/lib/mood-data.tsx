@@ -4,6 +4,12 @@ const moodsData = [
     emoji: "🏃‍♂",
     places: [
       {
+        name: "Interlaken, Switzerland",
+        description:
+          "Offers skydiving, paragliding, and canyoning in the Swiss Alps.",
+        src: "https://www.youtube.com/embed/qDcn4-Oe9Nc?si=SfQ7vFBuVfv8id_1",
+      },
+      {
         name: "Queenstown, New Zealand",
         description:
           "Known as the adventure capital of the world, offering bungee jumping, skydiving, and jet boating.",
@@ -32,12 +38,6 @@ const moodsData = [
         description:
           "Renowned for skiing, snowboarding, and mountain biking in the summer.",
         src: "https://www.youtube.com/embed/syTdzClrSno?si=zM2bBQBA_6vKw6F_",
-      },
-      {
-        name: "Interlaken, Switzerland",
-        description:
-          "Offers skydiving, paragliding, and canyoning in the Swiss Alps.",
-        src: "https://www.youtube.com/embed/qDcn4-Oe9Nc?si=SfQ7vFBuVfv8id_1",
       },
       {
         name: "Patagonia, Argentina/Chile",
@@ -564,7 +564,7 @@ const moodsData = [
         name: "Santorini, Greece",
         description:
           "Famous for its stunning sunsets, white-washed buildings, and calm Aegean Sea.",
-        src: "",
+        src: "https://www.youtube.com/embed/I0nsyCzajCo?si=Hi0tJQyye0XBslX1",
       },
       {
         name: "Cinque Terre, Italy",
@@ -599,61 +599,61 @@ const moodsData = [
         name: "Berlin, Germany",
         description:
           "A city known for its eclectic nightlife, art scene, and historical landmarks.",
-        src: "",
+        src: "https://www.youtube.com/embed/PNt9-tfsXYw?si=hzvJ68ZMeJgFL4bn",
       },
       {
         name: "Reykjavik, Iceland",
         description:
           "A vibrant city with a unique culture, stunning landscapes, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/j80T3sbTePM?si=CL3uAtkg7VePP3WL",
       },
       {
         name: "Portland, Oregon, USA",
         description:
           "Known for its independent culture, craft breweries, and quirky vibe.",
-        src: "",
+        src: "https://www.youtube.com/embed/1PGiixdhNVk?si=vTFuNFJAjiIf0Qfz",
       },
       {
         name: "Melbourne, Australia",
         description:
           "A city with a vibrant arts scene, diverse neighborhoods, and an independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/H-P6LbEoaYw?si=sLqLbR3dNxbYnLba",
       },
       {
         name: "Austin, Texas, USA",
         description:
           "Famous for its live music scene, cultural festivals, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/KzX9kJumv9A?si=YAUgoX0D_WLG20Fl",
       },
       {
         name: "Buenos Aires, Argentina",
         description:
           "A city with a rich cultural heritage, vibrant nightlife, and a strong independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/F2sepCUnENg?si=LSNvedMuAgDdnuBR",
       },
       {
         name: "Edinburgh, Scotland",
         description:
           "A city with a unique blend of history, culture, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/zXDXBkc7CJ8?si=gebbygPgbEXzmbEI",
       },
       {
         name: "Seoul, South Korea",
         description:
           "A bustling metropolis with a unique culture, vibrant neighborhoods, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/eREftfTRsaQ?si=ReO5D40b9_4u1Fig",
       },
       {
         name: "Lisbon, Portugal",
         description:
           "A city known for its vibrant culture, historic neighborhoods, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/6DrBlgSckA4?si=orUCVmexdteud3Uy",
       },
       {
         name: "San Francisco, California, USA",
         description:
           "A city with a diverse culture, iconic landmarks, and a strong independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/Oo6iAxf4si0?si=uKH1p_PCo6HnpbFi",
       },
     ],
   },
@@ -665,31 +665,31 @@ const moodsData = [
         name: "Las Vegas, Nevada, USA",
         description:
           "Known for its lively entertainment, casinos, and vibrant nightlife.",
-        src: "",
+        src: "https://www.youtube.com/embed/HjklndipGGQ?si=diwaIc7DTm_HYeCb",
       },
       {
         name: "Ibiza, Spain",
         description:
           "Famous for its nightlife, beautiful beaches, and lively party scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/GD95D1ViGfQ?si=u_blS5CHezBNIWnf",
       },
       {
         name: "Bangkok, Thailand",
         description:
           "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
       },
       {
         name: "Amsterdam, Netherlands",
         description:
           "Famous for its canals, vibrant nightlife, and unique cultural experiences.",
-        src: "",
+        src: "https://www.youtube.com/embed/3izVLop9iKg?si=X3HnuRycyvqVEJlE",
       },
       {
         name: "New Orleans, Louisiana, USA",
         description:
           "Known for its vibrant music scene, festivals, and unique cultural heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/fFWJc2bXOvk?si=SxEsBBk_AVS_CNWz",
       },
       {
         name: "Rio de Janeiro, Brazil",
@@ -707,7 +707,7 @@ const moodsData = [
         name: "Miami, Florida, USA",
         description:
           "Offers beautiful beaches, lively nightlife, and a vibrant cultural scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/yQCBAaJg1LE?si=HADyi2LpVHaviFRk",
       },
       {
         name: "Barcelona, Spain",
@@ -719,7 +719,7 @@ const moodsData = [
         name: "Prague, Czech Republic",
         description:
           "A city with a rich history, stunning architecture, and a vibrant nightlife.",
-        src: "",
+        src: "https://www.youtube.com/embed/idg6vW3vXtE?si=qhhXH3i0BSLKOPTq",
       },
     ],
   },
@@ -731,7 +731,7 @@ const moodsData = [
         name: "Paris, France",
         description:
           "Known for its world-class cuisine, bakeries, and Michelin-starred restaurants.",
-        src: "",
+        src: "https://www.youtube.com/embed/DNNMS7l6A-g?si=Vq9ui7876d1EIZ0v",
       },
       {
         name: "Tokyo, Japan",
@@ -749,37 +749,37 @@ const moodsData = [
         name: "New York City, USA",
         description:
           "A melting pot of cuisines offering a diverse and vibrant food scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/9p3dtE98xRY?si=zb_KG3pUR5_OS1Em",
       },
       {
         name: "Bangkok, Thailand",
         description:
           "Known for its vibrant street food scene and flavorful Thai cuisine.",
-        src: "",
+        src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
       },
       {
         name: "Bologna, Italy",
         description:
           "Famous for its rich culinary heritage, including pasta, cheese, and cured meats.",
-        src: "",
+        src: "https://www.youtube.com/embed/U4vejC9GZF4?si=_PmHzpASVY0rhGOq",
       },
       {
         name: "Lyon, France",
         description:
           "Known as the gastronomic capital of France, offering a rich culinary experience.",
-        src: "",
+        src: "https://www.youtube.com/embed/Gp6b_AEouaw?si=0ZFPdiMxT2gCzih4",
       },
       {
         name: "Marrakech, Morocco",
         description:
           "Offers a unique culinary experience with aromatic spices and traditional dishes.",
-        src: "",
+        src: "https://www.youtube.com/embed/0NkAE4N8E1A?si=ESpFjMTAsgIKsN_T",
       },
       {
         name: "San Sebastian, Spain",
         description:
           "Famous for its pintxos bars and Michelin-starred restaurants.",
-        src: "",
+        src: "https://www.youtube.com/embed/aUjgUVkttN8?si=kRHp0rWRMVogVa66",
       },
       {
         name: "Istanbul, Turkey",
@@ -797,7 +797,7 @@ const moodsData = [
         name: "New York City, USA",
         description:
           "A bustling metropolis with iconic landmarks, diverse neighborhoods, and a vibrant cultural scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/9p3dtE98xRY?si=zb_KG3pUR5_OS1Em",
       },
       {
         name: "Tokyo, Japan",
@@ -809,49 +809,49 @@ const moodsData = [
         name: "London, England",
         description:
           "A city with a rich history, iconic landmarks, and diverse cultural experiences.",
-        src: "",
+        src: "https://www.youtube.com/embed/NYY2ELEH0AA?si=a8WcE2NDjBVjrycZ",
       },
       {
         name: "Paris, France",
         description:
           "Known as the city of love, offering romantic walks along the Seine, iconic landmarks, and charming cafes.",
-        src: "",
+        src: "https://www.youtube.com/embed/DNNMS7l6A-g?si=Vq9ui7876d1EIZ0v",
       },
       {
         name: "Hong Kong",
         description:
           "A vibrant city with a stunning skyline, bustling markets, and a unique blend of cultures.",
-        src: "",
+        src: "https://www.youtube.com/embed/d8yxY7UiDdQ?si=m80Tqe3PQkbimfK8",
       },
       {
         name: "Singapore",
         description:
           "A modern city-state known for its cleanliness, architecture, and diverse culinary scene.",
-        src: "",
+        src: "https://www.youtube.com/embed/Ln38av8gLng?si=UtfWe3HHMn7O2rdQ",
       },
       {
         name: "Berlin, Germany",
         description:
           "A city known for its eclectic nightlife, art scene, and historical landmarks.",
-        src: "",
+        src: "https://www.youtube.com/embed/PNt9-tfsXYw?si=hzvJ68ZMeJgFL4bn",
       },
       {
         name: "Los Angeles, California, USA",
         description:
           "Known for its entertainment industry, beautiful beaches, and diverse neighborhoods.",
-        src: "",
+        src: "https://www.youtube.com/embed/9wbNabuP6aM?si=sAqPc0Wd_23rTwyM",
       },
       {
         name: "Seoul, South Korea",
         description:
           "A bustling metropolis with a unique culture, vibrant neighborhoods, and independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/eREftfTRsaQ?si=ReO5D40b9_4u1Fig",
       },
       {
         name: "Buenos Aires, Argentina",
         description:
           "A city with a rich cultural heritage, vibrant nightlife, and a strong independent spirit.",
-        src: "",
+        src: "https://www.youtube.com/embed/F2sepCUnENg?si=LSNvedMuAgDdnuBR",
       },
     ],
   },
@@ -863,43 +863,37 @@ const moodsData = [
         name: "Amalfi Coast, Italy",
         description:
           "Known for its picturesque coastline, charming towns, and delicious cuisine.",
-        src: "",
+        src: "https://www.youtube.com/embed/Mupom-sgjAU?si=QaLS0fZduhQejJsm",
       },
       {
         name: "Maui, Hawaii, USA",
         description:
           "Offers beautiful beaches, lush rainforests, and luxurious resorts.",
-        src: "",
+        src: "https://www.youtube.com/embed/DXJVyEowf8o?si=ZxVLbR_L3f3ua6J-",
       },
       {
         name: "Santorini, Greece",
         description:
           "Famous for its stunning sunsets, white-washed buildings, and calm Aegean Sea.",
-        src: "",
+        src: "https://www.youtube.com/embed/I0nsyCzajCo?si=Hi0tJQyye0XBslX1",
       },
       {
         name: "Great Barrier Reef, Australia",
         description:
           "The world's largest coral reef system, offering incredible diving and snorkeling experiences.",
-        src: "",
-      },
-      {
-        name: "Maui, Hawaii, USA",
-        description:
-          "Offers beautiful beaches, lush rainforests, and luxurious resorts.",
-        src: "",
+        src: "https://www.youtube.com/embed/AR1cSKxxSmU?si=EqblrCbIBSoRrdHq",
       },
       {
         name: "Phuket, Thailand",
         description:
           "Offers stunning beaches, vibrant nightlife, and serene wellness retreats.",
-        src: "",
+        src: "https://www.youtube.com/embed/m_pCh6p8_wg?si=UGs5NONRT-uliGg5",
       },
       {
         name: "Bali, Indonesia",
         description:
           "A tropical haven with serene beaches, yoga retreats, and luxurious spas.",
-        src: "",
+        src: "https://www.youtube.com/embed/BFS9n4B_2xA?si=jZ9QmDcRhQmHAR69",
       },
       {
         name: "Cinque Terre, Italy",
@@ -911,13 +905,13 @@ const moodsData = [
         name: "Maldives",
         description:
           "Idyllic islands with overwater bungalows, crystal-clear waters, and world-class resorts.",
-        src: "",
+        src: "https://www.youtube.com/embed/Z755vZBf9oM?si=44W_McxU0-F6IXdz",
       },
       {
         name: "Zanzibar, Tanzania",
         description:
           "An island paradise with white sandy beaches, spice plantations, and historic Stone Town.",
-        src: "",
+        src: "https://www.youtube.com/embed/zr9WDySrMEs?si=BTNUasMdwgPnM136",
       },
     ],
   },
@@ -929,49 +923,49 @@ const moodsData = [
         name: "Jerusalem, Israel",
         description:
           "A city of profound religious significance for Judaism, Christianity, and Islam.",
-        src: "",
+        src: "https://www.youtube.com/embed/YF_m6lYV4d0?si=_sr1JkayR9x5RPoW",
       },
       {
         name: "Mecca, Saudi Arabia",
         description:
           "The holiest city in Islam, attracting millions of pilgrims annually.",
-        src: "",
+        src: "https://www.youtube.com/embed/TuLH0oKx-WE?si=P7KYgTOvsx99w3NQ",
       },
       {
         name: "Varanasi, India",
         description:
           "A holy city on the banks of the Ganges River, known for its spiritual significance and rituals.",
-        src: "",
+        src: "https://www.youtube.com/embed/1udJsv1VcII?si=8dYeI9wI5SnUQWIC",
       },
       {
         name: "Lhasa, Tibet",
         description:
           "The spiritual heart of Tibetan Buddhism, home to the Potala Palace and Jokhang Temple.",
-        src: "",
+        src: "https://www.youtube.com/embed/5Gg4Lmqx7GM?si=RkkqWD_0MOq4m7-2",
       },
       {
         name: "Rome, Italy",
         description:
           "A city with a rich religious history, home to the Vatican and numerous historic churches.",
-        src: "",
+        src: "https://www.youtube.com/embed/5DcA4BePBdA?si=h2zu-gxiOVdbVm1d",
       },
       {
         name: "Kyoto, Japan",
         description:
           "Famous for its historic temples, traditional tea houses, and beautiful gardens.",
-        src: "",
+        src: "https://www.youtube.com/embed/IMjwqUeEOo4?si=GSRG47jvqg0B4_oW",
       },
       {
         name: "Santiago de Compostela, Spain",
         description:
           "The culmination of the Camino de Santiago pilgrimage route, known for its stunning cathedral.",
-        src: "",
+        src: "https://www.youtube.com/embed/ETuvrv2-VZ4?si=TSYV5UauXfE1LmFM",
       },
       {
         name: "Medina, Saudi Arabia",
         description:
           "The second holiest city in Islam, home to the Prophet's Mosque.",
-        src: "",
+        src: "https://www.youtube.com/embed/9np1b4C3XnE?si=VsNT6lop5oAoSSur",
       },
       {
         name: "Istanbul, Turkey",
@@ -983,75 +977,75 @@ const moodsData = [
         name: "Angkor Wat, Cambodia",
         description:
           "A massive temple complex and a symbol of Cambodia's spiritual and cultural heritage.",
-        src: "",
+        src: "https://www.youtube.com/embed/Qh8fZUnpKyg?si=JaqKuHtGKvEYL4ri",
       },
     ],
   },
   {
     name: "Guilty",
     emoji: "🙊",
-    places: [
-      {
-        name: "Las Vegas, Nevada, USA",
-        description:
-          "Known for its lively entertainment, casinos, and vibrant nightlife.",
-        src: "",
-      },
-      {
-        name: "Macau, China",
-        description:
-          "Often called the 'Las Vegas of Asia', known for its casinos and luxury hotels.",
-        src: "",
-      },
-      {
-        name: "Amsterdam, Netherlands",
-        description:
-          "Famous for its canals, vibrant nightlife, and unique cultural experiences.",
-        src: "",
-      },
-      {
-        name: "Bangkok, Thailand",
-        description:
-          "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
-        src: "",
-      },
-      {
-        name: "Rio de Janeiro, Brazil",
-        description:
-          "Famous for its carnival, beaches, and lively samba music.",
-        src: "https://www.youtube.com/embed/ZYA0Bz3Tsl8?si=ys4Dz6-Z2kg3glmi",
-      },
-      {
-        name: "Ibiza, Spain",
-        description:
-          "Famous for its nightlife, beautiful beaches, and lively party scene.",
-        src: "",
-      },
-      {
-        name: "New Orleans, Louisiana, USA",
-        description:
-          "Known for its vibrant music scene, festivals, and unique cultural heritage.",
-        src: "",
-      },
-      {
-        name: "Miami, Florida, USA",
-        description:
-          "Offers beautiful beaches, lively nightlife, and a vibrant cultural scene.",
-        src: "",
-      },
-      {
-        name: "Los Angeles, California, USA",
-        description:
-          "Known for its entertainment industry, beautiful beaches, and diverse neighborhoods.",
-        src: "",
-      },
-      {
-        name: "Berlin, Germany",
-        description:
-          "A city known for its eclectic nightlife, art scene, and historical landmarks.",
-        src: "",
-      },
-    ],
+    // places: [
+    //   {
+    //     name: "Las Vegas, Nevada, USA",
+    //     description:
+    //       "Known for its lively entertainment, casinos, and vibrant nightlife.",
+    //     src: "",
+    //   },
+    //   {
+    //     name: "Macau, China",
+    //     description:
+    //       "Often called the 'Las Vegas of Asia', known for its casinos and luxury hotels.",
+    //     src: "",
+    //   },
+    //   {
+    //     name: "Amsterdam, Netherlands",
+    //     description:
+    //       "Famous for its canals, vibrant nightlife, and unique cultural experiences.",
+    //     src: "https://www.youtube.com/embed/3izVLop9iKg?si=X3HnuRycyvqVEJlE",
+    //   },
+    //   {
+    //     name: "Bangkok, Thailand",
+    //     description:
+    //       "A city known for its vibrant street life, bustling markets, and rich cultural heritage.",
+    //     src: "https://www.youtube.com/embed/KyC_mKy7Zf8?si=AVZ2R_3zIuPMXt6b",
+    //   },
+    //   {
+    //     name: "Rio de Janeiro, Brazil",
+    //     description:
+    //       "Famous for its carnival, beaches, and lively samba music.",
+    //     src: "https://www.youtube.com/embed/ZYA0Bz3Tsl8?si=ys4Dz6-Z2kg3glmi",
+    //   },
+    //   {
+    //     name: "Ibiza, Spain",
+    //     description:
+    //       "Famous for its nightlife, beautiful beaches, and lively party scene.",
+    //     src: "",
+    //   },
+    //   {
+    //     name: "New Orleans, Louisiana, USA",
+    //     description:
+    //       "Known for its vibrant music scene, festivals, and unique cultural heritage.",
+    //     src: "https://www.youtube.com/embed/fFWJc2bXOvk?si=SxEsBBk_AVS_CNWz",
+    //   },
+    //   {
+    //     name: "Miami, Florida, USA",
+    //     description:
+    //       "Offers beautiful beaches, lively nightlife, and a vibrant cultural scene.",
+    //     src: "",
+    //   },
+    //   {
+    //     name: "Los Angeles, California, USA",
+    //     description:
+    //       "Known for its entertainment industry, beautiful beaches, and diverse neighborhoods.",
+    //     src: "https://www.youtube.com/embed/9wbNabuP6aM?si=sAqPc0Wd_23rTwyM",
+    //   },
+    //   {
+    //     name: "Berlin, Germany",
+    //     description:
+    //       "A city known for its eclectic nightlife, art scene, and historical landmarks.",
+    //     src: "https://www.youtube.com/embed/PNt9-tfsXYw?si=hzvJ68ZMeJgFL4bn",
+    //   },
+    // ],
   },
   {
     name: "Vagabond",
@@ -1061,43 +1055,43 @@ const moodsData = [
         name: "Kathmandu, Nepal",
         description:
           "A bustling city with a mix of ancient temples, vibrant markets, and a gateway to the Himalayas.",
-        src: "",
+        src: "https://www.youtube.com/embed/xAvWBKybqHo?si=hVAdeahE86IGXbUK",
       },
       {
         name: "Vientiane, Laos",
         description:
           "A laid-back capital with a mix of French colonial architecture, Buddhist temples, and a vibrant riverfront.",
-        src: "",
+        src: "https://www.youtube.com/embed/cjcS5PmVYXs?si=aV-GDHi3w4MwgwnW",
       },
       {
         name: "Chiang Mai, Thailand",
         description:
           "Known for its historic temples, night markets, and surrounding mountains.",
-        src: "",
+        src: "https://www.youtube.com/embed/IW5-Xr_2ZTw?si=-jNeu_cwutvgrBZE",
       },
       {
         name: "Luang Prabang, Laos",
         description:
           "A UNESCO World Heritage site with a rich history, beautiful temples, and stunning natural surroundings.",
-        src: "",
+        src: "https://www.youtube.com/embed/CG9yX515ksU?si=7vwqnyMdzzG_-RU1",
       },
       {
         name: "Marrakech, Morocco",
         description:
           "Offers a unique cultural experience with aromatic spices, bustling souks, and historic palaces.",
-        src: "",
+        src: "https://www.youtube.com/embed/0NkAE4N8E1A?si=ESpFjMTAsgIKsN_T",
       },
       {
         name: "Hanoi, Vietnam",
         description:
           "A city with a rich history, vibrant street life, and delicious cuisine.",
-        src: "",
+        src: "https://www.youtube.com/embed/YcSIbqLYqT8?si=nEtaQdARzZNFk9JB",
       },
       {
         name: "Fez, Morocco",
         description:
           "Known for its historic medina, vibrant markets, and traditional crafts.",
-        src: "",
+        src: "https://www.youtube.com/embed/aAtHlcWuOhQ?si=FFQ41oD3Dj5QYmE_",
       },
       {
         name: "Cusco, Peru",
@@ -1109,13 +1103,13 @@ const moodsData = [
         name: "Hoi An, Vietnam",
         description:
           "A charming town known for its well-preserved ancient architecture, lantern-lit streets, and tailor shops.",
-        src: "",
+        src: "https://www.youtube.com/embed/g2IuR6cW7hI?si=9Prd9FVAuym9POkd",
       },
       {
         name: "Pokhara, Nepal",
         description:
           "A serene city with beautiful lakes, stunning mountain views, and a gateway to the Annapurna region.",
-        src: "",
+        src: "https://www.youtube.com/embed/npxAFD84mqk?si=MjuOLVPzZtCx-tSB",
       },
     ],
   },
