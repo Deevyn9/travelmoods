@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 
 export const metadata: Metadata = {
   title: "TravelMoods",
-  description: "Where do you wanna go",
+  description: "Discover amazing travel destinations based on how you feel",
 };
 
 export default function RootLayout({
