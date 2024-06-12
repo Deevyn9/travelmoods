@@ -46,8 +46,7 @@ const Nav = () => {
             opacity: isHomePage ? 0 : 1,
           }}
         >
-          <span>{emojis[emojiIndex]} </span>
-          Edit Mood
+          <span>{emojis[emojiIndex]} Edit Mood</span>
         </Link>
       </div>
     </div>
