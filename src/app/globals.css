@@ -7,16 +7,20 @@
 }
 
 html {
-  --primary-color: #b278d4;
-  --disabled-color: #2b2231;
+  --primary-color: #6375b8;
+  --disabled-color: #3c4562;
+  --main-bg: #28273a;
+  --secondary-bg: #3d3c59;
 }
 
 body {
   font-family: "Space Grotesk", sans-serif;
-  background-color: #000000;
+  background-color: var(--main-bg);
   color: white;
   display: flex;
   justify-content: center;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -24,7 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 850px;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   padding: 30px 10px;
 }
@@ -32,13 +36,13 @@ body {
 .nav {
   width: 80%;
   height: 70px;
-  background-color: rgb(30, 30, 31);
+  background-color: var(--secondary-bg);
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .nav h3 {
-  margin-left: 60px;
+  margin-left: 80px;
   text-align: center;
 }
 
@@ -58,7 +62,7 @@ body {
 
 .hero {
   text-align: center;
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
 .hero-header {
@@ -104,7 +108,13 @@ body {
   border: 2px solid var(--primary-color);
   background-color: var(--primary-color);
   border-radius: 10px;
-  padding: 10px 35px;
+  width: 156px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .mood-page {
@@ -114,7 +124,8 @@ body {
 .container {
   overflow: hidden;
   width: 100%;
-  border: 2px dashed salmon;
+  background-color: var(--secondary-bg);
+  border-radius: 10px;
 }
 
 .container .image-area {
@@ -139,12 +150,14 @@ body {
 .destinations {
   display: flex;
   width: 100%;
-  border: 2px dashed yellow;
 }
 
 .destination {
-  border: 2px dashed red;
   width: 100%;
+}
+
+.destination .details-area {
+  padding: 0 15px;
 }
 
 .destination p {
@@ -159,21 +172,27 @@ body {
 .container .controls {
   display: flex;
   justify-content: space-between;
+  padding: 0 15px 15px;
 }
 
 .container .controls button {
   height: 50px;
-  width: 120px;
-  font-size: 16px;
+  width: 94px;
+  font-size: 14px;
   background-color: var(--primary-color);
   color: white;
   cursor: pointer;
   border: none;
   border-radius: 10px;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
 }
 
 .container .controls button:disabled {
   background-color: var(--disabled-color);
+  opacity: 0.3;
 }
 
 @media (max-width: 768px) {
@@ -247,7 +266,7 @@ body {
 
   .container .controls button {
     height: 50px;
-    width: 30vw;
-    font-size: 16px;
+    width: 90px;
+    font-size: 14px;
   }
 }
