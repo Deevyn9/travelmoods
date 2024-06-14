@@ -8,6 +8,7 @@
 
 html {
   --primary-color: #6375b8;
+  --hover-primary: #1c40c0;
   --disabled-color: #3c4562;
   --main-bg: #28273a;
   --secondary-bg: #3d3c59;
@@ -75,7 +76,6 @@ body {
 
 .hero {
   text-align: center;
-  /* padding: 0 30px; */
 }
 
 .hero-header {
@@ -118,7 +118,6 @@ body {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
-  border: 2px solid var(--primary-color);
   background-color: var(--primary-color);
   border-radius: 10px;
   width: 156px;
@@ -128,6 +127,11 @@ body {
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
+  transition: all ease 0.3s;
+}
+
+.edit-mood:hover {
+  background-color: var(--hover-primary);
 }
 
 .mood-page {
@@ -201,6 +205,11 @@ body {
   display: grid;
   place-items: center;
   font-weight: 600;
+  transition: ease 0.3s all;
+}
+
+.container .controls button:hover {
+  background-color: var(--hover-primary);
 }
 
 .container .controls button:disabled {
