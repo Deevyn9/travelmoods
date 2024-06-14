@@ -44,6 +44,7 @@ const Nav = () => {
           className="edit-mood"
           style={{
             opacity: isHomePage ? 0 : 1,
+            zIndex: isHomePage ? -1 : 1,
           }}
         >
           <span>{emojis[emojiIndex]} Edit Mood</span>
